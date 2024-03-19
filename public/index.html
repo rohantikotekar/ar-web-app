@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>3D-Modelling</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton%3A400"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat%3A400%2C700"/>
+  <link rel="stylesheet" href="./styles/main.css"/>
+</head>
+<body>
+  <div class="main-QK1">
+    <p class="d-modelling-Z5R">3D- Modelling</p>
+    <p class="please-capture-photos-from-all-angles-pX9">Please capture photos from all angles.</p>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <div class="auto-group-vubd-Kyh">
+        <!-- Change button type to "button" and add an onclick event -->
+        <button class="frame-2-zTZ" type="button" onclick="document.getElementById('fileInput').click()">Capture Image</button>
+        <!-- Hidden file input -->
+        <input type="file" id="fileInput" name="images" multiple style="display: none;">
+        <!-- Upload button -->
+        <button class="frame-2-zTZ" type="button" id="uploadButton">Upload</button>
+      </div>
+    </form>
+    <!-- Download button -->
+    <button id="downloadButton" class="frame-2-zTZ" style="display: none;">Download USDZ File</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
